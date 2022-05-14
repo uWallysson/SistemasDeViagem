@@ -1,0 +1,28 @@
+*{
+    background-image: url(img/download.jpg);
+    text-align: center;
+}
+.SistemaCompra{
+    margin-top: 22.4em;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur( 10px );
+    font-size: 14;
+    
+}
+.SistemaCompra:hover{
+    border-color: rgb(0, 4, 255);
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    transition: 2s all;
+    cursor: pointer;
+}
+.SistemaCompra:active{
+    border-color: rgba(0, 8, 255, 0.304);
+    color: white;
+}
